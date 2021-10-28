@@ -481,13 +481,13 @@
   <ItemGroup>
     <Compile Include="Elements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StepBindings\LastSevenDaysResultFeatureSteps.cs" />
+    <Compile Include="StepBindings\OnetimePaymentFeatureSteps.cs" />
     <Compile Include="TestUtilities\BusinessLib.cs" />
     <Compile Include="TestUtilities\GenricLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Features\LastSevenDaysResultFeature.feature" />
+    <None Include="Features\OnetimePaymentFeature.feature" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

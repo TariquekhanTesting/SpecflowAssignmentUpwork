@@ -8,14 +8,17 @@ namespace SeleniumSpecflowUpwork
 {
     class Elements
     {
-        public static String URL = "https://www.oddsking.com/lotto/irish";
-        public static String ResultButton = "//div[contains(text(),'Results')]/parent::div/a";
-        public static String ViewFilteredResultButton = "//button[contains(text(),'View Filtered Results')]";
-        public static String Date = "//button/abbr[contains(text(),'23')]";
-        public static String FromDate = "//div[contains(text(),'FROM')]/parent::div/div[2]";
-        public static String CalendarDoneButton = "//button[contains(text(),'Done')]";
-
-
-        public static String firstresult = "//div[@class='_1sjkz1w']/div/div[1]";
+        public static String URL = "https://limepay-qa-tests-kgwfq2pfigxkt.herokuapp.com/alexmamonchik/payme";
+        public static String onetimepayment = "//a[contains(text(),'One time')]";
+        public static String MessageDescriptionField = "//textarea[@id='message-text']";
+        public static String Name = "//input[@name='business_name']";
+        public static String Email = "//input[@name='email']";
+        public static String CardNumber = "//input[@name='cardnumber']";
+        public static String CardExpDate = "//input[@name='exp-date']";
+        public static String CVCNumber = "//input[@name='cvc']";
+        public static String ZipNumber = "//input[@name='postal']";
+        public static String PayButton = "//button[@id='mtrPayMePagePayBtn']";
+        public static String Frame = "//div[@id='card-element']/div/iframe";
+        public static String SuccessMessage = "//p[contains(text(),'Thank you!')]";
     }
 }
